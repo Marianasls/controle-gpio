@@ -3,7 +3,7 @@
 #include "include/iniciarPinos.c"
 #include "include/cores.c"
 #include "include/buzzers.c"
-
+#include "include/KeyPad.c"
 
 // definição dos pinos
 #define LED_R 13
