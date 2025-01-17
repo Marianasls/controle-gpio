@@ -24,16 +24,6 @@
 
 #define ROWS 4
 #define COLS 4
-const uint8_t Row_Pins[ROWS] = {8, 7, 6, 5}; 
-const uint8_t Col_Pins[COLS] = {1, 2, 3, 4}; 
-
-// Mapeamento do teclado matricial
-const char KEY_MAP[ROWS][COLS] = {
-    {'1', '2', '3', 'A'},
-    {'4', '5', '6', 'B'},
-    {'7', '8', '9', 'C'},
-    {'*', '0', '#', 'D'}
-};
 
 int main()
 {
@@ -44,7 +34,7 @@ int main()
     iniciarPinos();
     keypad_init();
     while (true) {
-       tecla = read_keypad();
+       tecla = read_keypad();// recebendo telca
        if(tecla != '\0'){
             switch(tecla){
                 case '1':
@@ -54,6 +44,7 @@ int main()
                 case '2':
                     branco(TEMPO);
                     tecla_temp = 2;
+                    printf("%c", tecla);
                     break;
                 case '3':
                     rosa(TEMPO);
@@ -92,6 +83,8 @@ int main()
                     buzzer_A_OFF();
                     buzzer_B_OFF();
                     break;
+               default:
+                printf("%c",tecla);
             }
        }
        
