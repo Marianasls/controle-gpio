@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
+#include "include/iniciarPinos.c"
+#include "include/cores.c"
+#include "include/buzzers.c"
+
 
 // definição dos pinos
 #define LED_R 13
@@ -20,9 +24,9 @@
 int main()
 {
     stdio_init_all();
-
+    iniciaComponentes();
     while (true) {
-        printf("Hello, world!\n");
-        sleep_ms(1000);
+       
+       
     }
 }
