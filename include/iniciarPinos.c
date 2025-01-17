@@ -2,7 +2,6 @@
 #include "pico/stdlib.h"
 #include "iniciarPinos.h"
 
-
 // definição dos pinos
 #define LED_R 13
 #define LED_B 12
@@ -16,6 +15,7 @@
 #define MATRIX_R4 5
 #define MATRIX_R3 6
 #define MATRIX_R2 7
+
 
 void iniciaComponentes(){
 //iniciando LEDs
@@ -32,3 +32,5 @@ gpio_init(BUZZER_B);
 gpio_set_dir(BUZZER_B, GPIO_OUT);
 
 }
+
+

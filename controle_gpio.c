@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "include/iniciarPinos.c"
+#include "include/cores.c"
 
 
 // definição dos pinos
@@ -22,9 +23,13 @@
 int main()
 {
     stdio_init_all();
+    iniciaComponentes();
 
     while (true) {
-        stdio_init_all();
-        iniciaComponentes();
+
+        azul(1000);
+        apagado(500);
+        vermelho(1000);        
+       
     }
 }

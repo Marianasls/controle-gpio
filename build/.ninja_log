@@ -63,3 +63,9 @@
 3250	4115	7587782183280676	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj	cc4470b43be33114
 3096	4245	7587782181800602	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj	c0a22cf7510bb496
 4245	4660	7587782193215598	controle_gpio.elf	95b0b222bf7d6228
+33	513	7587787705942797	CMakeFiles/controle_gpio.dir/controle_gpio.c.obj	b4212bfaf100766
+514	964	7587787710739028	controle_gpio.elf	95b0b222bf7d6228
+48	453	7587788321896410	CMakeFiles/controle_gpio.dir/controle_gpio.c.obj	b4212bfaf100766
+454	1122	7587788325953623	controle_gpio.elf	95b0b222bf7d6228
+47	259	7587789359608232	CMakeFiles/controle_gpio.dir/controle_gpio.c.obj	b4212bfaf100766
+260	582	7587789361740058	controle_gpio.elf	95b0b222bf7d6228
