@@ -25,7 +25,6 @@ int main()
 {
     stdio_init_all();
     iniciaComponentes();
-
     while (true) {
        
        
