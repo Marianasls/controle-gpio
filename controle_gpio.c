@@ -19,7 +19,10 @@
 #define MATRIX_R3 6
 #define MATRIX_R2 7
 #define MATRIX_R1 8
-
+#define ROWS 4
+#define COLS 4
+const uint8_t Row_Pins[ROWS] = {8, 7, 6, 5}; 
+const uint8_t Col_Pins[COLS] = {1, 2, 3, 4};
 
 int main()
 {
