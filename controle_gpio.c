@@ -38,6 +38,7 @@ const char KEY_MAP[ROWS][COLS] = {
 int main()
 {
     char tecla;
+    int tecla_temp = 0;
 
     stdio_init_all();
     iniciaComponentes();
@@ -62,24 +63,31 @@ int main()
             switch(tecla){
                 case '1':
                     ciano(TEMPO);
+                    tecla_temp = 1;
                     break;
                 case '2':
                     branco(TEMPO);
+                    tecla_temp = 2;
                     break;
                 case '3':
                     rosa(TEMPO);
+                    tecla_temp = 3;
                     break;
                 case '4':
                     amarelo(TEMPO);
+                    tecla_temp = 4;
                     break;
                 case '5':
                     vermelho(TEMPO);
+                    tecla_temp = 5;
                     break;
                 case '6':
                     azul(TEMPO);
+                    tecla_temp = 6;
                     break;
                 case '7':
                     verde(TEMPO);
+                    tecla_temp = 7;
                     break;
                 case '8':
                     buzzer_A(TEMPO);
@@ -90,8 +98,14 @@ int main()
                 case '0':
                     apagado();
                     break;
-                case 'A':
-                    
+                case '*':
+                    if(tecla_temp <= 7)
+                        piscar((char)tecla_temp);
+                    break;
+                case '#':
+                    buzzer_A_OFF();
+                    buzzer_B_OFF();
+                    break;
             }
        }
        
