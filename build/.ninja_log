@@ -87,3 +87,13 @@
 135	1010	7587928528879195	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj	43ae4f531cc53678
 170	1040	7587928529876783	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/common/pico_util/pheap.c.obj	bf7dde33406700d1
 84	1181	7587928528325859	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj	d29fbdbf3abf040e
+104	1121	7587929766746306	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj	495621aa95ffe1b5
+70	1304	7587929766381389	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg/vreg.c.obj	a75b974df9d3bf9f
+62	1320	7587929766340870	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj	1f36d6d3ead6f899
+94	1324	7587929766656219	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj	1fdd4e31f6cb55c6
+85	1332	7587929766560171	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj	2a0ca33f8f7c88e5
+77	1367	7587929766480151	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj	b6b982b52ec50699
+47	1373	7587929766180223	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj	b385477544b2caf2
+1122	1423	7587929776903041	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj	f8c72267b9234fd0
+36	1433	7587929766050385	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/common/pico_util/queue.c.obj	c0f817198911eadc
+54	1574	7587929766210744	CMakeFiles/controle_gpio.dir/C_/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj	62c50e446b765f99
