@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
+#include "iniciarPinos.c"
+
 
 // definição dos pinos
 #define LED_R 13

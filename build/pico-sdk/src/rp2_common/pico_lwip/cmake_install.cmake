@@ -1,8 +1,8 @@
-# Install script for directory: /home/marianasls/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_lwip
+# Install script for directory: C:/Users/valte/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_lwip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/controle_gpio")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,11 +34,11 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/home/marianasls/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "C:/Users/valte/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/marianasls/Documents/EmbarcaTech/U4/controle_gpio/build/pico-sdk/src/rp2_common/pico_lwip/tools/cmake_install.cmake")
+  include("C:/C/controle-gpio/build/pico-sdk/src/rp2_common/pico_lwip/tools/cmake_install.cmake")
 endif()
 
