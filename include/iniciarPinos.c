@@ -16,7 +16,7 @@
 #define MATRIX_R3 6
 #define MATRIX_R2 7
 
-
+//inicia os componentes
 void iniciaComponentes(){
 //iniciando LEDs
 gpio_init(LED_B);
@@ -33,4 +33,4 @@ gpio_set_dir(BUZZER_B, GPIO_OUT);
 
 }
 
-
+//fim do arquivo
