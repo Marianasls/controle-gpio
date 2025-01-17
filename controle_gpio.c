@@ -27,14 +27,7 @@ int main()
     iniciaComponentes();
 
     while (true) {
-        buzzer_AB(1000);
-        azul(0);
-        vermelho(0);
-        verde(0);
-        
-        buzzer_A_OFF();
-        buzzer_B_OFF();
-        ciano(3000);       
+       
        
     }
 }
