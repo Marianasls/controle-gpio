@@ -43,20 +43,6 @@ int main()
     stdio_init_all();
     iniciarPinos();
     keypad_init();
-
-    /*
-    Botão 1 - Ciano
-    Botão 2 - Branco
-    Botão 3 - Rosa
-    Botão 4 - Amarelo
-    Botão 5 - Vermelho
-    Botão 6 - Azul
-    Botão 7 - Verde
-    Botão 8 - Buzzer A
-    Botão 9 - Buzzer B
-    Botão 0 - Apagar LEDs
-    */
-
     while (true) {
        tecla = read_keypad();
        if(tecla != '\0'){

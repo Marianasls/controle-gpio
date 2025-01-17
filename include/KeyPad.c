@@ -2,9 +2,9 @@
 #include "pico/stdlib.h"
 #include "KeyPad.h"
 
-#define ROWS 4
+#define ROWS 4//Definição das linhas e colunas do teclado matricial
 #define COLS 4
-const uint8_t Row_Pins[ROWS] = {8, 7, 6, 5};
+const uint8_t Row_Pins[ROWS] = {8, 7, 6, 5};//Definição dos pinos do teclado matricial
 const uint8_t Col_Pins[COLS] = {1, 2, 3, 4};
 
 // Mapeamento do teclado matricial
