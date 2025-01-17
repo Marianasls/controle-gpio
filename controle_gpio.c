@@ -41,7 +41,7 @@ int main()
     int tecla_temp = 0;
 
     stdio_init_all();
-    iniciaComponentes();
+    iniciarPinos();
     keypad_init();
 
     /*
@@ -96,7 +96,7 @@ int main()
                     buzzer_B(TEMPO);
                     break;
                 case '0':
-                    apagado();
+                    apagado(0);
                     break;
                 case '*':
                     if(tecla_temp <= 7)

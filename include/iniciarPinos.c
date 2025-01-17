@@ -17,7 +17,7 @@
 #define MATRIX_R2 7
 
 // inicia os componentes
-void iniciaComponentes()
+void iniciarPinos()
 {
   // iniciando LEDs
   gpio_init(LED_B);
