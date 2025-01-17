@@ -20,6 +20,8 @@
 #define MATRIX_R2 7
 #define MATRIX_R1 8
 
+#define TEMPO 200
+
 #define ROWS 4
 #define COLS 4
 const uint8_t Row_Pins[ROWS] = {8, 7, 6, 5}; 
@@ -41,11 +43,55 @@ int main()
     iniciaComponentes();
     keypad_init();
 
+    /*
+    Botão 1 - Ciano
+    Botão 2 - Branco
+    Botão 3 - Rosa
+    Botão 4 - Amarelo
+    Botão 5 - Vermelho
+    Botão 6 - Azul
+    Botão 7 - Verde
+    Botão 8 - Buzzer A
+    Botão 9 - Buzzer B
+    Botão 0 - Apagar LEDs
+    */
+
     while (true) {
        tecla = read_keypad();
        if(tecla != '\0'){
             switch(tecla){
-                case ''
+                case '1':
+                    ciano(TEMPO);
+                    break;
+                case '2':
+                    branco(TEMPO);
+                    break;
+                case '3':
+                    rosa(TEMPO);
+                    break;
+                case '4':
+                    amarelo(TEMPO);
+                    break;
+                case '5':
+                    vermelho(TEMPO);
+                    break;
+                case '6':
+                    azul(TEMPO);
+                    break;
+                case '7':
+                    verde(TEMPO);
+                    break;
+                case '8':
+                    buzzer_A(TEMPO);
+                    break;
+                case '9':
+                    buzzer_B(TEMPO);
+                    break;
+                case '0':
+                    apagado();
+                    break;
+                case 'A':
+                    
             }
        }
        
