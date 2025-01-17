@@ -1,6 +1,7 @@
-#ifndef INICIARPINOS_H
-#define INICIARPINOS_H
+#ifndef INICIAR_PINOS_H
+#define INICIAR_PINOS_H
 
-void iniciaComponentes();
+void iniciarPinos(void);
 
-#endif
+
+#endif // INICIAR_PINOS_H
