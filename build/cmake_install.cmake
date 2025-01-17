@@ -1,4 +1,4 @@
-# Install script for directory: C:/C/controle-gpio
+# Install script for directory: C:/Users/jlfc1/Desktop/projetos/tarefa1/controle-gpio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/valte/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/jlfc1/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/C/controle-gpio/build/pico-sdk/cmake_install.cmake")
+  include("C:/Users/jlfc1/Desktop/projetos/tarefa1/controle-gpio/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/C/controle-gpio/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jlfc1/Desktop/projetos/tarefa1/controle-gpio/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
