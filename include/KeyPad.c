@@ -4,8 +4,8 @@
 
 #define ROWS 4//Definição das linhas e colunas do teclado matricial
 #define COLS 4
-const uint8_t Row_Pins[ROWS] = {8, 7, 6, 5};//Definição dos pinos do teclado matricial
-const uint8_t Col_Pins[COLS] = {1, 2, 3, 4};
+const uint8_t Row_Pins[ROWS] = {8, 7, 6, 5}; 
+const uint8_t Col_Pins[COLS] = {1, 2, 3, 4}; 
 
 // Mapeamento do teclado matricial
 const char KEY_MAP[ROWS][COLS] = {
@@ -29,10 +29,8 @@ void keypad_init()
         gpio_pull_down(Col_Pins[i]);
     }
 }
-char read_keypad()//Função para ler o teclado matricial
-{
-    for (int row = 0; row < ROWS; row++)
-    {
+char read_keypad() {
+    for (int row = 0; row < ROWS; row++) {
         gpio_put(Row_Pins[row], 1);
 
         for (int col = 0; col < COLS; col++)
