@@ -2,6 +2,7 @@
 #include "pico/stdlib.h"
 #include "include/iniciarPinos.c"
 #include "include/cores.c"
+#include "include/buzzers.c"
 
 
 // definição dos pinos
