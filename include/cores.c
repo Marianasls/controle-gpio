@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 #include "cores.h"
 
-#define _TEMPO_ 200
+#define _TEMPO_ 300
 
 // Funções para controle de cores
 
