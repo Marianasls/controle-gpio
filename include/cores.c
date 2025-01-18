@@ -2,7 +2,7 @@
 #include "pico/stdlib.h"
 #include "cores.h"
 
-#define TEMPO 300
+#define _TEMPO_ 200
 
 // Funções para controle de cores
 
@@ -11,45 +11,45 @@ void piscar(char tecla)
     switch (tecla)
     {
     case '1':
-        ciano(TEMPO);
+        ciano(_TEMPO_);
         apagado(300);
-        ciano(TEMPO);
+        ciano(_TEMPO_);
         apagado(300);
         break;
     case '2':
-        branco(TEMPO);
+        branco(_TEMPO_);
         apagado(300);
-        branco(TEMPO);
+        branco(_TEMPO_);
         apagado(300);
         break;
     case '3':
-        rosa(TEMPO);
+        rosa(_TEMPO_);
         apagado(300);
-        rosa(TEMPO);
+        rosa(_TEMPO_);
         apagado(300);
         break;
     case '4':
-        amarelo(TEMPO);
+        amarelo(_TEMPO_);
         apagado(300);
-        amarelo(TEMPO);
+        amarelo(_TEMPO_);
         apagado(300);
         break;
     case '5':
-        vermelho(TEMPO);
+        vermelho(_TEMPO_);
         apagado(300);
-        vermelho(TEMPO);
+        vermelho(_TEMPO_);
         apagado(300);
         break;
     case '6':
-        azul(TEMPO);
+        azul(_TEMPO_);
         apagado(300);
-        azul(TEMPO);
+        azul(_TEMPO_);
         apagado(300);
         break;
     case '7':
-        verde(TEMPO);
+        verde(_TEMPO_);
         apagado(300);
-        verde(TEMPO);
+        verde(_TEMPO_);
         apagado(300);
         break;
     }

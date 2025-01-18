@@ -22,19 +22,6 @@
 
 #define TEMPO 200
 
-#define ROWS 4
-#define COLS 4
-const uint8_t Row_Pins[ROWS] = {8, 7, 6, 5}; 
-const uint8_t Col_Pins[COLS] = {4, 3, 2, 27}; 
-
-// Mapeamento do teclado matricial
-const char KEY_MAP[ROWS][COLS] = {
-    {'1', '2', '3', 'A'},
-    {'4', '5', '6', 'B'},
-    {'7', '8', '9', 'C'},
-    {'*', '0', '#', 'D'}
-};
-
 
 int main()
 {
@@ -97,7 +84,7 @@ int main()
                     buzzer_B(TEMPO);
                     break;
                 case '0':
-                    apagado();
+                    apagado(TEMPO);
                     break;
                 case '*':
                     if(tecla_temp <= 7)
