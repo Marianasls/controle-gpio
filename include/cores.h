@@ -9,5 +9,6 @@ void amarelo(int tempo);
 void vermelho(int tempo);
 void azul(int tempo);
 void verde(int tempo);
+void piscar(char tecla);
 
 #endif
