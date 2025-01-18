@@ -137,7 +137,7 @@ Conta ativa no Wokwi.
 Clone o projeto: 
   
 git clone
- https://github.com/seu-repositorio.git
+ https://github.com/Marianasls/controle-gpio.git
 
 
 Passos para Rodar
