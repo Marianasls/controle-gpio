@@ -3,15 +3,17 @@
 
 ## **Índice**
 
-1. [Descrição](#descrição)  
-2. [Componentes](#componentes)  
-3. [Funcionalidades](#funcionalidades)  
-4. [Mapeamento de Teclas](#mapeamento-de-teclas)  
-5. [Estrutura do Código](#estrutura-do-código)  
-6. [Exemplo do Código](#exemplo-do-código)
-7. [Como Rodar o Projeto](#como-rodar-o-projeto)  
-   - [Requisitos](#requisitos)  
-   - [Passos para Rodar](#passos-para-rodar)  
+- [**Projeto: Controle de GPIO com Teclado Matricial 4x4**](#projeto-controle-de-gpio-com-teclado-matricial-4x4)
+  - [**Índice**](#índice)
+  - [**Descrição**](#descrição)
+  - [**Componentes**](#componentes)
+  - [**Funcionalidades**](#funcionalidades)
+  - [**Mapeamento de Teclas**](#mapeamento-de-teclas)
+  - [**Estrutura do Código**](#estrutura-do-código)
+  - [**Como Rodar o Projeto**](#como-rodar-o-projeto)
+    - [Requisitos](#requisitos)
+    - [Passos para Rodar](#passos-para-rodar)
+    - [Link do vídeo da solução](#link-do-vídeo-da-solução)
 
 ## **Descrição**
 Este projeto simula o controle de pinos GPIO do microcontrolador Raspberry Pi Pico W, permitindo o acionamento de 3 LEDs RGB e dois buzzers por meio de um teclado matricial 4x4. O código foi desenvolvido em C utilizando o Pico SDK, com suporte à simulação no Wokwi.
@@ -121,10 +123,13 @@ git clone https://github.com/Marianasls/controle-gpio.git
 
 ### Passos para Rodar
 
-1.Se for a primeira vez para executar o projeto, acesse no VsCode o menu lateral da extensão "Raspberry Pi Pico Project", vá na aba "Project" e clique na opção "Configure CMake" para gerar a pasta de build com os arquivos necessários para a compilação do projeto.
+1. Se for a primeira vez para executar o projeto, acesse no VsCode o menu lateral da extensão "Raspberry Pi Pico Project", vá na aba "Project" e clique na opção "Configure CMake" para gerar a pasta de build com os arquivos necessários para a compilação do projeto.
 
 2. Compile o código no ambiente configurado.
 
 3. Clique no arquivo diagram.json, execute a simulação e teste as funcionalidades:
 
 - Pressione as teclas para alterar o estado dos LEDs ou tocar o buzzer.
+
+### Link do vídeo da solução 
+https://drive.google.com/file/d/1eGNiuJlTB67k8YfFEHQGlgyf-nK1Io3E/view?usp=sharing
