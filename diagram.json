@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "author": "Mariana Lima",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "microcontroller",
+      "top": -32.05,
+      "left": 176.35,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-membrane-keypad",
+      "id": "keyboard1",
+      "top": -491.6,
+      "left": -196,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "green_led",
+      "top": 198,
+      "left": 99.8,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "blue_led",
+      "top": 255.6,
+      "left": 99.8,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "red_led",
+      "top": 322.8,
+      "left": 99.8,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "resistor1",
+      "top": 224.75,
+      "left": 9.6,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "resistor2",
+      "top": 311.15,
+      "left": 9.6,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "resistor3",
+      "top": 397.55,
+      "left": 9.6,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzzer1",
+      "top": -64.8,
+      "left": 337.8,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzzer2",
+      "top": -64.8,
+      "left": 410,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "microcontroller:GP0", "$serialMonitor:RX", "", [] ],
+    [ "microcontroller:GP1", "$serialMonitor:TX", "", [] ],
+    [ "keyboard1:C4", "microcontroller:GP27", "green", [ "v9.6", "h287.7", "v182.4" ] ],
+    [ "keyboard1:C3", "microcontroller:GP2", "green", [ "v19.2", "h124.65", "v-115.2" ] ],
+    [ "keyboard1:C2", "microcontroller:GP3", "green", [ "v28.8", "h144", "v-105.6" ] ],
+    [ "keyboard1:C1", "microcontroller:GP4", "green", [ "v38.4", "h163.1", "v-105.6" ] ],
+    [ "keyboard1:R4", "microcontroller:GP5", "green", [ "v48", "h182.2", "v-105.6" ] ],
+    [ "keyboard1:R3", "microcontroller:GP6", "green", [ "v57.6", "h201.3", "v-96" ] ],
+    [ "keyboard1:R2", "microcontroller:GP7", "green", [ "v67.2", "h220.4", "v-96" ] ],
+    [ "keyboard1:R1", "microcontroller:GP8", "green", [ "v76.8", "h240", "v-96" ] ],
+    [ "microcontroller:GP11", "green_led:A", "green", [ "h-48", "v115.2" ] ],
+    [ "green_led:C", "resistor1:2", "green", [ "v0" ] ],
+    [ "microcontroller:GP12", "blue_led:A", "green", [ "h-38.4", "v192.04" ] ],
+    [ "microcontroller:GP13", "red_led:A", "green", [ "h-28.8", "v268.84" ] ],
+    [ "red_led:C", "resistor3:2", "green", [ "v0" ] ],
+    [ "blue_led:C", "resistor2:2", "green", [ "v0" ] ],
+    [ "microcontroller:GND.4", "resistor3:1", "black", [ "h-19.2", "v278.44", "h-172.8" ] ],
+    [ "resistor2:1", "resistor3:1", "green", [ "v0" ] ],
+    [ "resistor2:1", "resistor1:1", "green", [ "v0" ] ],
+    [ "microcontroller:GND.6", "buzzer1:1", "black", [ "h0" ] ],
+    [ "microcontroller:GP21", "buzzer1:2", "green", [ "h0" ] ],
+    [ "microcontroller:GND.6", "buzzer2:1", "black", [ "h0" ] ],
+    [ "microcontroller:GP10", "buzzer2:2", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
