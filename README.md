@@ -1,4 +1,3 @@
-# controle-gpio                                                                                                                            
 # **Projeto: Controle de GPIO com Teclado Matricial 4x4**
 
 
@@ -135,10 +134,9 @@ Conta ativa no Wokwi.
 3. Repositório Git:
 
 Clone o projeto: 
-  
-git clone
- https://github.com/Marianasls/controle-gpio.git
-
+```bash
+git clone https://github.com/Marianasls/controle-gpio.git
+```
 
 Passos para Rodar
 
