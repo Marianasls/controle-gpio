@@ -94,58 +94,35 @@ KeyPad.c: Gerencia a configuração e a leitura do teclado matricial, incluindo 
 Cada arquivo desempenha um papel específico, tornando o código fácil de entender e modificar.
 
 
-## **Exemplo de Código**
-
-Abaixo está um trecho do código principal que mostra como o teclado controla os LEDs e o buzzer:
-
-switch(tecla) {
-    case '1':
-        ciano(TEMPO);
-        break;
-    case '8':
-        buzzer_A(TEMPO);
-        break;
-    case '0':
-        apagado(TEMPO);
-        break;
-    case '#':
-        buzzer_A_OFF();
-        buzzer_B_OFF();
-        break;
-} 
-
-
 ## **Como Rodar o Projeto**
 
-Requisitos
+### Requisitos
 
 1. Ambiente de Desenvolvimento:
 
-Visual Studio Code com extensões de C/C++.
+- Visual Studio Code com extensões de C/C++.
 
-Pico SDK instalado e configurado.
+- Extensão Raspberry Pi Pico 
+
+- Pico SDK instalado e configurado.
 
 
 2. Simulador Wokwi:
 
-Conta ativa no Wokwi.
+- Conta ativa no Wokwi e vinculada ao VsCode.
 
 
 3. Repositório Git:
 
-Clone o projeto: 
+- Clone o projeto: 
 ```bash
 git clone https://github.com/Marianasls/controle-gpio.git
 ```
 
-Passos para Rodar
+### Passos para Rodar
 
-1. Importe o arquivo wokwi-project.json para o Wokwi.
+1. Compile o código no ambiente configurado.
 
+2. Clique no arquivo diagram.json, execute a simulação e teste as funcionalidades:
 
-2. Compile o código no ambiente configurado.
-
-
-3. Execute a simulação e teste as funcionalidades:
-
-Pressione teclas para alterar o estado dos LEDs ou tocar o buzzer.
+- Pressione as teclas para alterar o estado dos LEDs ou tocar o buzzer.
