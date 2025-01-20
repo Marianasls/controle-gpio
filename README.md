@@ -121,8 +121,10 @@ git clone https://github.com/Marianasls/controle-gpio.git
 
 ### Passos para Rodar
 
-1. Compile o código no ambiente configurado.
+1.Se for a primeira vez para executar o projeto, acesse no VsCode o menu lateral da extensão "Raspberry Pi Pico Project", vá na aba "Project" e clique na opção "Configure CMake" para gerar a pasta de build com os arquivos necessários para a compilação do projeto.
 
-2. Clique no arquivo diagram.json, execute a simulação e teste as funcionalidades:
+2. Compile o código no ambiente configurado.
+
+3. Clique no arquivo diagram.json, execute a simulação e teste as funcionalidades:
 
 - Pressione as teclas para alterar o estado dos LEDs ou tocar o buzzer.
