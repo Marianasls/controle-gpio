@@ -14,7 +14,7 @@
    - [Passos para Rodar](#passos-para-rodar)  
 
 ## **Descrição**
-Este projeto simula o controle de pinos GPIO do microcontrolador Raspberry Pi Pico W, permitindo o acionamento de 3 LEDs RGB e um buzzer por meio de um teclado matricial 4x4. O código foi desenvolvido em C utilizando o Pico SDK, com suporte à simulação no Wokwi.
+Este projeto simula o controle de pinos GPIO do microcontrolador Raspberry Pi Pico W, permitindo o acionamento de 3 LEDs RGB e dois buzzers por meio de um teclado matricial 4x4. O código foi desenvolvido em C utilizando o Pico SDK, com suporte à simulação no Wokwi.
 
 ## **Componentes**
 
@@ -66,8 +66,8 @@ As funções associadas a cada tecla do teclado matricial 4x4 são:
 | 5     | LED vermelho            |
 | 6     | LED azul                |
 | 7     | LED verde               |
-| 8     | Buzzer A (tom padrão)   |
-| 9     | Buzzer B (tom alternado)|
+| A     | Buzzer A (tom padrão)   |
+| B     | Buzzer B (tom alternado)|
 | 0     | Apaga todos os LEDs     |
 | *     | Piscar última cor usada |
 | #     | Desliga os buzzers      |
