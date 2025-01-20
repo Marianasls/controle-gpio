@@ -59,15 +59,15 @@ As funções associadas a cada tecla do teclado matricial 4x4 são:
 
 | Tecla | Função                  |
 |-------|-------------------------|
-| 1     |  LED ciano              |
+| 1     | LED ciano               |
 | 2     | LED branco              |
 | 3     | LED rosa                |
 | 4     | LED amarelo             |
 | 5     | LED vermelho            |
 | 6     | LED azul                |
 | 7     | LED verde               |
-| A     | Buzzer A (tom padrão)   |
-| B     | Buzzer B (tom alternado)|
+| 8     | Buzzer A (tom padrão)   |
+| 9     | Buzzer B (tom alternado)|
 | 0     | Apaga todos os LEDs     |
 | *     | Piscar última cor usada |
 | #     | Desliga os buzzers      |
